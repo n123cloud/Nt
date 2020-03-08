@@ -1,1 +1,16 @@
+This Project will scrape Real Time Market Data from NSE Website and Store in Excel.
+
+
+This Java Project has been Build using Maven.
+
+
+Update exceldata function to store to Database
+
+Steps to get Market Data:
+1.Refer the getNseMarketData\parameterfile\MarketData_ran for All stocks.xlsx and select all the Sysmbol(Stock) for which Market Data needs to be feched.
+2.Update in Symbol colmn of MarketData.xlsx
+3.Open getNseMarketData\parameterfile\MarketData.xlsx file ,navigate to List of Available Parameters sheet and select the Parameter which needs to be fetched from NSE Website.
+4.Update MarketData Sheet: Column Header 9 and further.With the Parameter which you want to fetch.
+5.Run the excelParam.java and view the result in getNseMarketData\parameterfile\MarketData.xlsx
+
 
